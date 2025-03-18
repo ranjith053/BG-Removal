@@ -15,7 +15,7 @@ const Testimonials = () => {
                     <img className='w-9 rounded-full' src={item.image} alt="" />
                     <div className="">
                         <p>{item.author}</p>
-                        <p>{item.jobTitle}</p>
+                        <p className='text-sm text-gray-600'>{item.jobTitle}</p>
                     </div>
                   </div>
             </div>
